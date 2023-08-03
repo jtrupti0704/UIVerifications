@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Testcases">
+			<folder name="UiVerifications">
+				<child name="UIVerificationsTestcases" key="{5B1C517C-8B6D-4AB3-9272-7462CB7A0676}" path="UIVerificationsTestcases.js" />
+			</folder>
+			<folder name="Inventory">
+				<child name="Inventory" key="{51A2FB64-199B-4138-906A-120A7CC021CF}" path="Inventory.js" />
+			</folder>
+		</folder>
+		<folder name="MedDispense">
+			<folder name="SearchAndIdentifyCustomer">
+				<child name="SearchAndIdentifyCustomerPage" key="{CEB688CD-DA6F-4608-964E-196E1D6F7FCA}" path="SearchAndIdentifyCustomerPage.js" />
+			</folder>
+			<folder name="SelectPatientAndRx">
+				<child name="SelectPatientAndRxPage" key="{8F54ACC6-3F5D-4901-82A8-8A254C1D74AC}" path="SelectPatientAndRxPage.js" />
+			</folder>
+			<folder name="QAAuthorize">
+				<child name="QaConsultAuthorizePage" key="{EF0091CF-7F4A-4E9F-B579-F91E66E5E7C3}" path="QaConsultAuthorizePage.js" />
+			</folder>
+			<folder name="Login">
+				<child name="NavigateAndSignInToMedDispense" key="{1662D456-CCA8-4F1C-B964-E135D5C59EE8}" path="NavigateAndSignInToMedDispense.js" />
+			</folder>
+			<folder name="Inventory">
+				<child name="InventoryPage" key="{9C0DD34B-854C-4602-8806-630C9ADB2AEA}" path="InventoryPage.js" />
+			</folder>
+			<folder name="CommonActions">
+				<child name="CommonActionsPage" key="{15A7CFB6-C759-45CA-96FF-7BE528ABC7AB}" path="CommonActionsPage.js" />
+				<child name="EndTransactionOnIdentifyAndSpnRx" key="{8D469094-3248-4DB7-8087-990723E27062}" path="EndTransactionOnIdentifyAndSpnRx.js" />
+			</folder>
+			<folder name="Logout">
+				<child name="LogoutMeddispense" key="{0099BF51-FC04-4307-A7FE-06D23B8F7CEA}" path="LogoutMeddispense.js" />
+			</folder>
+		</folder>
+		<folder name="MedOps" />
+		<folder name="MedCenter" />
+		<folder name="Framework scripts">
+			<child name="ExceptionHandling" key="{A746EF60-98B7-4170-B262-801DD9207D1B}" path="ExceptionHandling.js" />
+		</folder>
+		<folder name="Utilities">
+			<child name="SendReportByEmail" key="{F5F4CEEC-71D4-4444-BF64-ACE1C82ADFBC}" path="SendReportByEmail.js" />
+			<child name="WaitMethods" key="{ED4E985B-91C5-44B2-B000-EA1CA4BC4059}" path="WaitMethods.js" />
+		</folder>
+		<folder name="Events">
+			<child name="TestEvent" key="{54085208-26EA-457F-BC12-23B76589B80E}" path="TestEvent.js" />
+		</folder>
+	</children>
+</Root>

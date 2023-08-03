@@ -1,0 +1,2769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{D26DACAA-6F03-4024-9AC9-D936BCE7DB97}">
+				<TypeInfo Item0="{0DCC9BF5-EFEA-45C2-A5FE-6D51C4653388}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{99C66040-7B1F-411A-9603-E692128AF019}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="IdentifyCustomerPage" Key="{0E5BD1B4-E94C-46C9-8AAC-BE585F77CB5F}" Description="SearchAndIdentifyCustomertask">
+								<Image FileName="-694012274" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://*.medplatform.medavail.com/MedDispense/identifyCustomer" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="viewInventorybutton" Key="{9F32D5DB-0962-4D04-9471-873E6FD52DCB}">
+										<Image FileName="-694012274" Left="1781" Top="360" Right="1900" Bottom="390" />
+										<TypeInfo Item0="{EC7E171D-0992-4837-9D15-6F178394CB43}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[text()=&apos;View Inventory&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button[contains(@class, &apos;blueButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="lastName" Key="{A1B50601-287F-4213-90D7-2575537432EF}">
+										<Image FileName="954443599" Left="254" Top="431" Right="802" Bottom="491" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Last Name:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="lastNameTextField" Key="{C4D2D417-A009-4919-966C-36CED0665A34}">
+												<Image FileName="-1859652075" Left="423" Top="446" Right="788" Bottom="478" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div/input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div/input[contains(@class, &apos;col&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="firstName" Key="{F0A8F463-8467-45DE-8BB2-5DD4FDB80CBD}">
+										<Image FileName="-340652538" Left="801" Top="431" Right="1349" Bottom="491" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;First Name:&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="firstNameTextField" Key="{52D87BE6-5E3B-44DA-BCA4-252B33942552}">
+												<Image FileName="421102716" Left="971" Top="446" Right="1336" Bottom="478" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/input[contains(@class, &apos;col&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="dateOfBirth" Key="{D1D4BAF0-40DF-4B59-8813-072004DE7947}">
+										<Image FileName="-1614284648" Left="1349" Top="431" Right="1897" Bottom="491" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Date of Birth:&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="dateOfBirthTextField" Key="{F6E544DC-1211-4FDF-A6B5-5191B28032F7}">
+												<Image FileName="434071760" Left="1518" Top="444" Right="1883" Bottom="478" />
+												<TypeInfo Item0="{04651073-A8D9-4A36-B770-3336A3741865}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@type=&apos;date&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]/input[contains(@class, &apos;col&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="searchPatientsButton" Key="{03E85837-E50B-45D5-A168-34AC2B08D22F}">
+										<Image FileName="544412917" Left="1015" Top="280" Right="1227" Bottom="310" />
+										<TypeInfo Item0="{898D0E7B-1A9F-422A-A021-349E5061BA3A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@value=&apos;Search Patients&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="patientInformationCard" Key="{23A13084-4229-4D2C-B592-C198D9CEE5C1}">
+										<Image FileName="-2011483306" Left="290" Top="421" Right="411" Bottom="438" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&apos;Patient Information&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="identificationCompleteButton" Key="{642D706B-B9F7-4444-B08A-6598A8409543}">
+										<Image FileName="-1930674222" Left="1770" Top="178" Right="1913" Bottom="210" />
+										<TypeInfo Item0="{46D7627D-8F5C-40B6-B785-3DF6852F15AE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[.=&apos;Identification Complete&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div/div[2]/div/div/div//button[contains(@class, &apos;glowShow&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="InventoryPage" Key="{1C974C24-FA39-44D3-A546-A05E7D198E1A}">
+								<Image FileName="2092015458" Left="8" Top="60" Right="1808" Bottom="744" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedDispense/inventoryView*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="inventorySeachBox" Key="{05E6D124-90D3-4112-882F-AD0AEED0EB54}">
+										<Image FileName="2092015458" Left="19" Top="136" Right="900" Bottom="171" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;lUQKxqslpF5q8C7gPZckN&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="searchIcon" Key="{30DA1B01-DE6D-4800-9487-05D3284DCABC}">
+												<Image FileName="2092015458" Left="30" Top="146" Right="43" Bottom="159" />
+												<TypeInfo Item0="{2580A5E8-67F4-4E60-ADD8-C35663B5D9E0}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="searchPlaceholder" Key="{F8E8980F-5C75-4B6B-8874-07B5CCFE9F1B}">
+										<Image FileName="2092015458" Left="43" Top="137" Right="878" Bottom="167" />
+										<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[contains(@placeholder,&apos;Search&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="productName" Key="{EABC9F30-BEB7-4E52-82CC-A94B0880C2FF}">
+										<Image FileName="-88603988" Left="19" Top="191" Right="367" Bottom="270" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Product Name&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="productNameText" Key="{93A761F2-5BDD-48B6-B636-BE17B532645F}">
+												<Image FileName="-88603988" Left="33" Top="199" Right="363" Bottom="214" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//p[.=&apos;Product Name&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li//p[contains(@class, &apos;_2nsIupkYm2C77PDcqwKLR1&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li//p" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="productNameFilterbox" Key="{FDC3CD26-59D2-4262-99A0-BB90C1D3A597}">
+												<Image FileName="-88603988" Left="28" Top="239" Right="363" Bottom="259" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul/li//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li//input[contains(@class, &apos;_1NcBcwwSAvBON5EOQruDKM&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//ul/li//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="packageDescription" Key="{9ED1D29A-B8DF-4716-8A92-AB9CE7C4717D}">
+										<Image FileName="-88603988" Left="366" Top="191" Right="714" Bottom="270" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Package Description&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="packageDescriptionText" Key="{F500BF10-E9B0-4282-9BA8-B66CBD30C41A}">
+												<Image FileName="-88603988" Left="380" Top="199" Right="710" Bottom="214" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//p[.=&apos;Package Description&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="packageDescriptionFilterbox" Key="{44B6823F-206C-4905-B742-8DF5BFE05BE6}">
+												<Image FileName="-88603988" Left="375" Top="239" Right="710" Bottom="259" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul/li[2]//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[2]//input[contains(@class, &apos;_1NcBcwwSAvBON5EOQruDKM&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//ul/li[2]//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="productCode" Key="{82DA824C-EE9C-41E2-8A1A-9A321BDA379F}">
+										<Image FileName="-1510627976" Left="714" Top="191" Right="888" Bottom="270" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Product Code&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="productCodeText" Key="{B2FC2AB5-0FED-4B35-807A-09E82342A9BC}">
+												<Image FileName="-1510627976" Left="728" Top="199" Right="884" Bottom="214" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//p[.=&apos;Product Code&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[3]//p[contains(@class, &apos;_2nsIupkYm2C77PDcqwKLR1&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[3]//p" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="productCodeFilterbox" Key="{30698A48-3711-453E-BAAF-89C0A7CE09D5}">
+												<Image FileName="-1510627976" Left="723" Top="239" Right="884" Bottom="259" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul/li[3]//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[3]//input[contains(@class, &apos;_1NcBcwwSAvBON5EOQruDKM&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//ul/li[3]//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="quantityInPackage" Key="{D972ABDE-01DB-42FF-AFF4-8E6C676BC9C5}">
+										<Image FileName="833935966" Left="887" Top="191" Right="1026" Bottom="270" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Quantity In Package&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="manufacturer" Key="{B6B956BF-0F63-4ABB-99CE-2415E11F3EA2}">
+										<Image FileName="833935966" Left="1025" Top="191" Right="1234" Bottom="270" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//li[.=&apos;Manufacturer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//li[contains(@class, &apos;_2cjrfz9bfEUzAWnrViLa1D&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="manufacturerText" Key="{9EFC0F03-364E-4AE5-93E5-1CBF7CAB6F89}">
+												<Image FileName="833935966" Left="1039" Top="199" Right="1230" Bottom="214" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//p[.=&apos;Manufacturer&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[5]//p[contains(@class, &apos;_2nsIupkYm2C77PDcqwKLR1&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[5]//p" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="manufacturerFilterbox" Key="{78F98C09-B1AB-4FC0-B898-97CBFFC6FD44}">
+												<Image FileName="833935966" Left="1034" Top="239" Right="1230" Bottom="259" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul/li[5]//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[5]//input[contains(@class, &apos;_1NcBcwwSAvBON5EOQruDKM&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//ul/li[5]//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="packageCode" Key="{B0775B44-B28F-4823-80E2-733AF7FBF669}">
+										<Image FileName="-1205967592" Left="1239" Top="191" Right="1406" Bottom="269" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Package Code&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/div" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="packageCodeText" Key="{512EF413-CF61-443C-AD34-F09F5CB76FDA}">
+												<Image FileName="-1400485127" Left="1247" Top="199" Right="1403" Bottom="214" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//p[.=&apos;Package Code&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[6]//p[contains(@class, &apos;_2nsIupkYm2C77PDcqwKLR1&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[6]//p" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="packageCodeFilterbox" Key="{02F46E46-E5F4-4E6E-9B6E-D674528F34C0}">
+												<Image FileName="776037784" Left="1242" Top="239" Right="1403" Bottom="259" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul/li[6]//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li[6]//input[contains(@class, &apos;_1NcBcwwSAvBON5EOQruDKM&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//ul/li[6]//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="soonestExpirationText" Key="{AF8BAD87-0666-4113-A854-DBDBD60005D0}">
+										<Image FileName="-1924749811" Left="1421" Top="199" Right="1484" Bottom="229" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Soonest Expiration&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[7]//p[contains(@class, &apos;_2nsIupkYm2C77PDcqwKLR1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[7]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="availablePackagesText" Key="{02267F59-1CF4-4628-9966-C4A04174CEE3}">
+										<Image FileName="-792605376" Left="1501" Top="199" Right="1622" Bottom="214" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Available Packages&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[8]//p[contains(@class, &apos;_2nsIupkYm2C77PDcqwKLR1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[8]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="isDemoPackageText" Key="{0176DCA4-2F8F-46EF-8A0F-9BC90EFBC0EC}">
+										<Image FileName="1741456726" Left="1639" Top="199" Right="1761" Bottom="214" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Is Demo Package&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[9]//p[contains(@class, &apos;_2nsIupkYm2C77PDcqwKLR1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[9]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="medCenterHeader" Key="{26523AC3-25FB-4859-A24D-0001C0116D5F}">
+										<Image FileName="-1027106306" Left="19" Top="89" Right="1780" Bottom="126" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_3yN8kdm5lUlwFfSPN8Y0KZ&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="DrugTable" Key="{A21CDB16-A0AB-4B94-A9E4-8731077D7A48}">
+										<Image FileName="371465650" Left="19" Top="270" Right="1780" Bottom="432" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;WzVcYlXql-4ydhSVtF-qU&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="InventoryWindow" Key="{5479DE44-22F2-46D6-9069-0248A9261450}">
+								<Image FileName="-709411117" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{15AD802E-354D-4268-AE2C-37BA0D61C039}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="MedDispense - Google Chrome" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="meddispenseSignInPage" Key="{AA3CF459-29CF-4C14-8575-2FBF9A091BC5}">
+								<Image FileName="-1909538987" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://*-adfs.medplatform.medavail.com/adfs/ls/?wtrealm*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="medDispenseLoginForm" Key="{330B45A6-1AE7-4DB6-ABFC-FC85417B62F4}">
+										<Image FileName="-1909538987" Left="1478" Top="329" Right="1828" Bottom="463" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#loginForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form[contains(@action, &apos;ls&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;loginArea&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="usernameTextField" Key="{98870357-7265-4321-8423-9EE86DBCB737}">
+										<Image FileName="-1909538987" Left="1478" Top="329" Right="1828" Bottom="359" />
+										<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;User Account&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#userNameInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form[@id=&apos;loginForm&apos;]//input[@name=&apos;UserName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;loginForm&apos;]/div[@id=&apos;formsAuthenticationArea&apos;]/div[@id=&apos;userNameArea&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordTextField" Key="{2629BCF9-C45A-4BC0-AC2E-F96292C1B38F}">
+										<Image FileName="-2046498563" Left="1478" Top="367" Right="1828" Bottom="397" />
+										<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#passwordInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;loginForm&apos;]/div[@id=&apos;formsAuthenticationArea&apos;]/div[@id=&apos;passwordArea&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="medDispenseLogo" Key="{27CC2EFF-13D3-4F41-A639-E009F5C06E65}">
+										<Image FileName="-957996026" Left="1478" Top="169" Right="1738" Bottom="204" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#companyLogo" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;logoImage&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header&apos;]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="SignInButton" Key="{A4232501-2506-4B25-A3A6-B3C5133CA957}">
+										<Image FileName="1401521398" Left="1478" Top="438" Right="1563" Bottom="470" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#submitButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;submit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;submissionArea&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/main//form/div[@id=&apos;formsAuthenticationArea&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="medDispensePage" Key="{93922C15-7307-4FB5-A542-541E49F52880}">
+								<Image FileName="308582886" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://*.medplatform.medavail.com/MedDispense?provider=MedAvailFederation?provider=MedAvailFederation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="pinVerificationHeader" Key="{446C5211-88F7-4C7D-A33B-12C67D313C48}">
+										<Image FileName="308582886" Left="783" Top="436" Right="1153" Bottom="464" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;PIN Verification&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;_1s5U4Zz4lp5IB1DUJX6Lro&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="pinVerificationForm" Key="{6B4AA90B-09F4-4815-BE82-2A3EFE92854F}">
+										<Image FileName="-1152644301" Left="466" Top="504" Right="836" Bottom="563" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;formPinVerification&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[.=&apos;Enter your PIN&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;mt-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="pinBox" Key="{3515261D-9AF8-49EC-ABA0-B1A83D29F06A}">
+												<Image FileName="-1152644301" Left="466" Top="532" Right="836" Bottom="563" />
+												<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@type=&apos;password&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]//form//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="pinSubmitButton" Key="{E6710D8D-13CE-4BB2-9435-B8BA584A250A}">
+										<Image FileName="-192619280" Left="731" Top="649" Right="826" Bottom="681" />
+										<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="contactCenterAgentHeader" Key="{D0B2DB5C-A0EA-4AC6-8D90-D7BE8221CCBE}">
+										<Image FileName="-507327992" Left="526" Top="209" Right="1046" Bottom="241" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Contact Center Agent&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;_1uLdCErFjVXANsZ3VR1Rvl&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_2XxUM-Toftl80s-b5fXXlN&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="UsernameDropdown" Key="{16DBE756-261B-4053-A611-66FFD97053D1}">
+										<Image FileName="-501566397" Left="1054" Top="106" Right="1062" Bottom="111" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="UsernameDropDownBox" Key="{DD2BB786-93C8-498F-92AA-5F8CB2CC05DC}">
+										<Image FileName="-548899425" Left="916" Top="122" Right="1071" Bottom="183" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Sign Out&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;_1-6t721ijU07M3YqkRa8_5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="SignOutMenu" Key="{45FA1511-EA1D-4DF8-A7AC-00ED7ED99AF7}">
+										<Image FileName="-548899425" Left="917" Top="123" Right="1070" Bottom="153" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Sign Out&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHeader" Key="{C240E543-B029-49CF-8159-C3F616C3BC95}">
+										<Image FileName="-213487820" Left="0" Top="71" Right="1920" Bottom="114" />
+										<TypeInfo Item0="{2E9A07D6-C5D1-4E6F-BAD1-A788F19DD63C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="div[.=&apos;Server Error&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelIfYouForgotYourPin" Key="{E9E0711B-2581-4FBE-809C-B0C19CCB1DA9}">
+										<Image FileName="1953725241" Left="806" Top="619" Right="1139" Bottom="637" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;If you forgot your PIN,&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;marginTop35&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="pinVerificationSubmitButtonGrey" Key="{96E9B2DD-5CA1-42AE-8871-548393BEC3C7}">
+										<Image FileName="1163878861" Left="1045" Top="665" Right="1131" Bottom="694" />
+										<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;greyButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPinVerification" Key="{5A0881D0-C142-4429-8AFF-D0966374B68F}">
+										<Image FileName="916024106" Left="0" Top="109" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{2E9A07D6-C5D1-4E6F-BAD1-A788F19DD63C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_27mmoksrrpIGcOTffs_bSy&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="meddispenseSignOutPage" Key="{2467B272-35B0-49CB-AF14-4F30EF069C9A}">
+								<Image FileName="2047513705" Left="8" Top="84" Right="1284" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://*.medplatform.medavail.com/MedDispense/api/Home/SignOut" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="signOutMessage" Key="{F09DAAF4-ECF2-41C9-92E1-A01DADAB1EF3}">
+										<Image FileName="-1203086843" Left="459" Top="234" Right="834" Bottom="318" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="commonControls" Key="{2770BDAA-5051-4341-B039-7632DF14FCF8}">
+								<Image FileName="516683244" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://*.medplatform.medavail.com/MedDispense/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="endTransactionPopupHeader" Key="{2E667BDF-E135-42D8-B328-5910CA4EC095}">
+										<Image FileName="598685600" Left="693" Top="401" Right="1243" Bottom="429" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;End Transaction!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;_1s5U4Zz4lp5IB1DUJX6Lro&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="reasonForEndingTransactionTextField" Key="{249A6DA0-C6E8-4A34-BA66-00EE8C231024}">
+										<Image FileName="-2092777323" Left="698" Top="485" Right="1237" Bottom="605" />
+										<TypeInfo Item0="{6BAB4423-34D1-47C7-9924-6703F3D5C5E6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;end-transaction-end&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;_33fBrXUUSEaKvsuMd5d6Rn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cancelPopupButton" Key="{B3F08555-4199-4F01-9B04-2B60DC8C2B6B}">
+										<Image FileName="1931294712" Left="1143" Top="690" Right="1238" Bottom="722" />
+										<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Cancel&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;glowShow&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="endTransactionPopupButton" Key="{460194E9-C037-4911-A6EA-D19D64A063F9}">
+										<Image FileName="-215038415" Left="1040" Top="690" Right="1138" Bottom="722" />
+										<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;End Transaction&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;redButton&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="endTransactionButton" Key="{E29FCF11-2110-4CA8-91B4-55DEDEB230D5}">
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;End Transaction&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;redButton&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="collateralHeader" Key="{EB9DDD58-02DF-451A-8374-D6AF1ADA286C}">
+										<Image FileName="1307460394" Left="11" Top="184" Right="69" Bottom="204" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&apos;Collateral&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="addScanHeader" Key="{F0AFEAEB-FDBA-4BBA-849B-9DF47746ECA7}">
+										<Image FileName="1712023602" Left="161" Top="184" Right="218" Bottom="204" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&apos;Add Scan&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//b[contains(@class, &apos;mr-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAddScan" Key="{57188461-81E8-4BFD-BD92-E6561AA69FE3}">
+										<Image FileName="172670956" Left="161" Top="189" Right="218" Bottom="209" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&apos;Add Scan&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//b[contains(@class, &apos;mr-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="getKioskScreenButton" Key="{4631F945-1F78-4039-AED4-D07D20C8F599}">
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Get Kiosk Screen&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;glowShow&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="callKioskButton" Key="{0AB97029-C3D8-4C93-A089-E4770A273D06}">
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Call Kiosk&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//button[contains(@class, &apos;blueButton&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskButton" Key="{7449CDF3-7C5F-4AFE-82B4-6FB3AB9E48A1}">
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Transfer Task&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/div/div/div//button[contains(@class, &apos;blueButton&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="discardAndRestartButton" Key="{EA7AD2DC-6F1F-4DE1-B47D-23E35FE3C70C}">
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Discard and Restart&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="discardAndEndTransactionButton" Key="{6A1D577A-5EE0-4BC9-AC8E-A8DD341CB675}">
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Discard and End Transaction&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="queuedTaskSIndicator" Key="{7D864651-91F0-4BD1-9370-326EA37B5E0D}">
+										<Image FileName="53919467" Left="1234" Top="83" Right="1344" Bottom="104" />
+										<TypeInfo Item0="{2E9A07D6-C5D1-4E6F-BAD1-A788F19DD63C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Queued Task(s)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[2]/div[5]//div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sessionTimer" Key="{F2E6AB62-6CFE-49B2-97DA-E7AA9F553723}">
+										<Image FileName="1754305549" Left="1389" Top="79" Right="1489" Bottom="109" />
+										<TypeInfo Item0="{2E9A07D6-C5D1-4E6F-BAD1-A788F19DD63C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;mr-3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchAndIdentifyCustomerTab" Key="{FCBB54A6-3F4C-4007-8919-73DD300E9082}">
+										<Image FileName="1830389929" Left="8" Top="79" Right="246" Bottom="124" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Search and Identify Customer&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectPatientsAndRxsTab" Key="{65470BE9-6C67-4579-B633-E1F85FF678B9}">
+										<Image FileName="-901994439" Left="250" Top="79" Right="440" Bottom="124" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Select Patients and Rxs&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="qaConsultAuthorizeTab" Key="{3DE5592E-A22C-48C0-9204-9DEB2EC10F42}">
+										<Image FileName="469713806" Left="443" Top="79" Right="636" Bottom="124" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;QA/ Consult/ Authorize&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;_379n-kNZ4vzUhCUz5ceCny&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGayatriMedplatformBox" Key="{C5F7D17C-DA97-46EB-8677-0E67A5A26F67}">
+										<Image FileName="-902105944" Left="1540" Top="92" Right="1697" Bottom="112" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;truptijadhav@medplatform.box&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;pr-2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLaunchHelp" Key="{F70B2962-A2D9-4FCA-BC1D-B4CB56BE2A83}">
+										<Image FileName="-2065021472" Left="1725" Top="93" Right="1752" Bottom="110" />
+										<TypeInfo Item0="{3A6931CF-E651-4795-9FB2-7D1F0EFD7465}" />
+										<Selectors>
+											<Selector>
+												<Value Value="css=#launchHelp" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[.=&apos;Help&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[contains(@class, &apos;ZxGChOvw7j7QYJ0S3o2g5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="medcenterTitle" Key="{FEBC76C4-A4BD-418C-B2CC-CACC205FD671}">
+										<Image FileName="1174121365" Left="23" Top="141" Right="145" Bottom="158" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[32]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="medcenterText" Key="{EAC421B4-7999-40BF-90E9-55B614A850E1}">
+												<Image FileName="286149676" Left="23" Top="141" Right="87" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//b[contains(text(), &apos;MedCenter:&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div//div/b" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="medcenterNumber" Key="{A2D25B55-C67A-43AD-8512-390180042613}">
+												<Image FileName="-661731371" Left="87" Top="141" Right="134" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;V4-00023&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div/div/div/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="kioskTitle" Key="{C4B8C6D6-BD1D-4799-983A-72285BDC2D62}">
+										<Image FileName="-553932734" Left="155" Top="141" Right="264" Bottom="158" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="kiosktext" Key="{E9D262E8-1E77-4ED5-8032-96477CC97473}">
+												<Image FileName="-288960835" Left="155" Top="141" Right="189" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//b[contains(text(), &apos;Kiosk:&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/b" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="kioskNumber" Key="{A2815E9D-5708-4474-97C0-2C6CFDAD0D79}">
+												<Image FileName="-5881576" Left="189" Top="141" Right="252" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;V4-00023-01&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div/div/div[2]/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="transactionTypeTitle" Key="{E1F54D0A-35A3-47C4-9768-3AE1CB6B4F7A}">
+										<Image FileName="1043669629" Left="273" Top="141" Right="451" Bottom="158" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div[3]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="transactionTypeText" Key="{AE70EE5C-C7B6-4B24-BE55-BFB1962EF809}">
+												<Image FileName="1414007593" Left="273" Top="141" Right="366" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//b[contains(text(), &apos;Transaction Type:&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]/b" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="transactionTypeFillPrescription" Key="{E2A379D6-B678-4D49-A41E-AE9039654D13}">
+												<Image FileName="30175269" Left="366" Top="141" Right="440" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Fill Prescription&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="customerLanguageTitle" Key="{4B4BC480-F534-4653-A0F4-47E23602C071}">
+										<Image FileName="2009747133" Left="529" Top="141" Right="758" Bottom="158" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div[5]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="customerLanguage" Key="{C8A7E21D-A7F3-48F8-98F8-11E03C2EA36F}">
+												<Image FileName="-979786196" Left="639" Top="141" Right="748" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;English (United States)&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[5]/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="customerLanguageText" Key="{79F8075A-69B4-4BE3-8F65-2E0472B05969}">
+												<Image FileName="1722249216" Left="529" Top="141" Right="638" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//b[contains(text(), &apos;Customer Language:&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//div[5]/b" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="storeTitle" Key="{B14C6A5A-4485-447B-8653-8569B3255598}">
+										<Image FileName="1537179130" Left="768" Top="141" Right="937" Bottom="158" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div[6]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="storeText" Key="{1883C835-A752-4E6D-A704-005B2763E7ED}">
+												<Image FileName="1464954359" Left="768" Top="141" Right="801" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//b[contains(text(), &apos;Store:&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//div[6]/b" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="storeNumber" Key="{9978ABBB-A8C1-4E94-BE19-040FD8AAC339}">
+												<Image FileName="107725631" Left="801" Top="141" Right="936" Bottom="156" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;7354983-41V400023 (Kiosk)&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[6]/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="locationText" Key="{BAF0B4B1-37EA-43BB-86F7-89DAD038486D}">
+										<Image FileName="-1792008337" Left="461" Top="141" Right="508" Bottom="156" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//b[contains(text(), &apos;Location:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[4]/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="medavailVersion" Key="{DDC86CBD-4E5C-4EBF-A6C5-0B707E409175}">
+										<Image FileName="130342414" Left="1869" Top="111" Right="1913" Bottom="128" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[.=&apos;Ver. 6.6.1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;_2DDVtYn0DAl8lzyid4rlj_&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="notesSection" Key="{CF25FAD5-05B8-4F15-A2F7-D879075B256E}">
+										<Image FileName="912672527" Left="1597" Top="1013" Right="1898" Bottom="1043" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[.=&apos;Notes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h3[contains(@class, &apos;XZUW0OwV9DvuH9CULsccg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h3" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="notesHeader" Key="{71F02D4F-45EB-43DE-B731-12759DE7C0FC}">
+												<Image FileName="912672527" Left="1615" Top="1013" Right="1868" Bottom="1043" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Notes&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;_1jk0QZuriyYLPRieiLUQWz&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//h3/div" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelTransactionProgress" Key="{32302BE6-CF81-41C2-A369-1B547D71EB86}">
+										<Image FileName="-108530395" Left="1088" Top="226" Right="1907" Bottom="386" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_2mNXIuGdCyfpqjKvJOBcnj&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="patientNotesSection" Key="{83D7D3BE-5873-4D4D-8DB1-52D661AC341A}">
+										<Selectors>
+											<Selector>
+												<Value Value="#qaPatientNotesArea" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;pb-3&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="patientName" Key="{78DD2C15-9AF8-4C2F-8B70-1DC1AFDC1300}">
+												<Selectors>
+													<Selector>
+														<Value Value="//h4[.=&apos;Volvo, Alex&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//h4[contains(@class, &apos;card-title&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;qaPatientNotesArea&apos;]//h4" />
+													</Selector>
+													<Selector>
+														<Value Value="//h4" Enabled="False" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="patientNotes" Key="{56BE5C91-561C-4EFC-A39E-B2A0786F043B}">
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Drug-Seeking Behavior - A very nice person&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;qaPatientNotesArea&apos;]//div/div/div/div" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="transferToCertificationTag" Key="{389C7978-868C-4D35-AA49-195D03B73DB2}">
+										<Image FileName="2104259736" Left="887" Top="628" Right="1085" Bottom="646" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Certification&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[45]/div[contains(@class, &apos;_2fSxJL0k26SuEpFEMHRLT-&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[45]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferToJobTitleTag" Key="{F2A024A4-F012-4F8A-B704-7C54CC763016}">
+										<Image FileName="-420788193" Left="887" Top="535" Right="1085" Bottom="553" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Job Title&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div[contains(@class, &apos;_2fSxJL0k26SuEpFEMHRLT-&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferToLocationTag" Key="{CCCEE7AF-35B4-4B5B-8BB7-BBED745ED775}">
+										<Image FileName="-889696860" Left="887" Top="634" Right="1085" Bottom="652" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Location&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[28]/div[contains(@class, &apos;_2fSxJL0k26SuEpFEMHRLT-&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[28]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferToOtherTag" Key="{A6C13339-E0D9-4D35-BABA-19960FC9C4E2}">
+										<Image FileName="-1275387685" Left="887" Top="725" Right="1085" Bottom="743" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Other&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[48]/div[contains(@class, &apos;_2fSxJL0k26SuEpFEMHRLT-&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[48]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupReasonLabel" Key="{4D9EB0A6-6DE2-4C95-B679-A9710F6A09BE}">
+										<Image FileName="1984646306" Left="790" Top="545" Right="862" Bottom="568" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[contains(@class, &apos;_1QvwsMUjsklB6o4WtceZ6_&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupTransferToLabel" Key="{1DB23525-EB93-49DF-83D4-4EA5F2E83ECB}">
+										<Image FileName="328741182" Left="790" Top="505" Right="862" Bottom="528" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;_1QvwsMUjsklB6o4WtceZ6_&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferToUserTag" Key="{92617B72-5108-437A-94CB-4D5AEB6599DB}">
+										<Image FileName="-161258679" Left="887" Top="884" Right="1085" Bottom="902" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[54]/div[contains(@class, &apos;_2fSxJL0k26SuEpFEMHRLT-&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[54]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupSubmitButtonGrey" Key="{DB708B74-D6E4-4360-8C2D-46A570231682}">
+										<Image FileName="1090983562" Left="1061" Top="695" Right="1147" Bottom="724" />
+										<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Transfer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;greyButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupSubmitButtonGreen" Key="{CDCD65E2-731F-4F8D-B1FA-CC1CB7B4E6ED}">
+										<Image FileName="-585136510" Left="1061" Top="695" Right="1147" Bottom="724" />
+										<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Transfer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupReasonTextBox" Key="{45A4EC94-DA11-485C-B283-D4561CFA4FA1}">
+										<Image FileName="-302237173" Left="880" Top="545" Right="1114" Bottom="635" />
+										<TypeInfo Item0="{6BAB4423-34D1-47C7-9924-6703F3D5C5E6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;LwB6J0kgdr9QsQ7FPccQt&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupTransferToDropdown" Key="{0FCE1BB4-D941-41B3-B5BC-97011BC49B81}">
+										<Image FileName="-15744234" Left="883" Top="508" Right="1019" Bottom="526" />
+										<TypeInfo Item0="{F5A863D2-7DD4-4E6E-82F7-64C9B4F5A79C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//input)[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupHeader" Key="{6163D195-0823-4EB3-8D57-3650D2C3453E}">
+										<Image FileName="-612833081" Left="785" Top="437" Right="1137" Bottom="462" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Transfer Task&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;_1s5U4Zz4lp5IB1DUJX6Lro&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="transferTaskPopupCloseButton" Key="{9AD75F4F-112F-4383-8931-A72CAC968C38}">
+										<Image FileName="-1362338524" Left="1137" Top="446" Right="1151" Bottom="460" />
+										<TypeInfo Item0="{2580A5E8-67F4-4E60-ADD8-C35663B5D9E0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;fa-circle-xmark&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="loginWindow" Key="{C42EB11A-0F0D-4521-B0BA-CF32F7ACC707}">
+								<Image FileName="-1681884727" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="SpnRxPage" Key="{235F109F-C889-4621-A8DC-D359685F6B25}" Description="SelectPatientAndRxTask">
+								<Image FileName="1033588433" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://*.medplatform.medavail.com/MedDispense/spnrx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="requiredCheckbox" Key="{5F757C81-1980-4318-8F9B-CA7EAB0A16B8}">
+										<Image FileName="-1953366167" Left="280" Top="382" Right="293" Bottom="395" />
+										<TypeInfo Item0="{B22671DB-FEDD-4DB3-A41B-826732460CDE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitButton" Key="{A31BA62C-CFBC-47A0-B78B-5C9E0F5EBBCD}">
+										<Image FileName="-929381500" Left="1856" Top="170" Right="1905" Bottom="202" />
+										<TypeInfo Item0="{EC7E171D-0992-4837-9D15-6F178394CB43}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/div/div/div//button[contains(@class, &apos;glowShow&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="confirmButton" Key="{C915FE3F-D448-4B03-9909-67BCF053068F}">
+										<Image FileName="333192998" Left="1344" Top="726" Right="1439" Bottom="758" />
+										<TypeInfo Item0="{EC7E171D-0992-4837-9D15-6F178394CB43}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Confirm&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="qaConsultAuthorizePage" Key="{96E1A110-3D90-4A0F-BC6C-736565EFDC88}" Description="qaConsultAuthorizeTask">
+								<Image FileName="926003665" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedDispense/qaConsultAuthorize" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="transactionProgressSection" Key="{F46AEA2F-169A-4022-AB5C-3BA023EEAD6C}">
+										<Image FileName="926003665" Left="1088" Top="226" Right="1907" Bottom="386" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_2mNXIuGdCyfpqjKvJOBcnj&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewPackageImagesButton" Key="{90F03EEF-CE97-4D48-AD32-654B0C897FA3}">
+										<Image FileName="-599581224" Left="281" Top="820" Right="501" Bottom="853" />
+										<TypeInfo Item0="{46D7627D-8F5C-40B6-B785-3DF6852F15AE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;View Package Images&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div[2]/div//button[contains(@class, &apos;blueButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lnI-1-pkgI-1-pkg-RxPackage-&apos;]//div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div[2]/div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editCompareImagesHeader" Key="{6448BC78-0A5B-463F-9118-DEBF5A830B32}">
+										<Image FileName="577211860" Left="405" Top="170" Right="576" Bottom="190" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Edit &amp; Compare Images&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="preLabelSection" Key="{22ECE3E7-8F4D-4CDD-B43D-488DDCE3180F}">
+										<Image FileName="1401663073" Left="401" Top="228" Right="963" Bottom="960" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[2]/div[contains(@class, &apos;d-flex flex-column&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="Add selector" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="zoomButton" Key="{0BBADE93-E078-4499-902D-0A6A87B9E5AC}">
+												<Image FileName="-185473647" Left="402" Top="294" Right="482" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//div[text()=&apos;Zoom&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="MagnifyButton" Key="{98CE4AE4-CC17-4353-9E1E-6445C0FBA395}">
+												<Image FileName="2006666237" Left="482" Top="294" Right="562" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Magnify&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cropButton" Key="{7855DC00-1C80-4A64-AE7C-EA777F4845E8}">
+												<Image FileName="1343191222" Left="562" Top="294" Right="642" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Crop&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="rotateLeftButton" Key="{319D0BAB-11D0-4B91-9F40-313D06F5CF2A}">
+												<Image FileName="215280423" Left="642" Top="294" Right="722" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Rotate Left&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="rotateRightButton" Key="{C1F6CE44-110C-4547-A6CD-BA3222383693}">
+												<Image FileName="1172846226" Left="722" Top="294" Right="802" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Rotate Right&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="brightnessContrastButton" Key="{20DA6039-A309-4CF2-B02F-A6F693B11E75}">
+												<Image FileName="1457679319" Left="802" Top="294" Right="882" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Brightness / Contrast&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="hueSaturationButton" Key="{FBB3B04D-0A9C-409F-81B8-0E18DB015BDF}">
+												<Image FileName="-16778786" Left="882" Top="294" Right="962" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Hue / Saturation&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="postLabelSection" Key="{63CDE2B0-1363-4143-A08E-695CDFDC87BD}">
+										<Image FileName="-1335516058" Left="983" Top="228" Right="1545" Bottom="960" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;d-flex flex-column ml-4&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="zoomButton" Key="{16E14373-6463-48FF-BE4C-09C778EF0500}">
+												<Image FileName="-230581932" Left="984" Top="91" Right="1064" Bottom="121" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div[2]/div[2]//ul/li//div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="magnifyButton" Key="{0899F933-F457-49C9-A517-B4693DDC52A9}">
+												<Image FileName="1388513409" Left="1064" Top="294" Right="1144" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div[2]/div[2]//ul/li[2]//div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cropButton" Key="{19125978-3F4C-4566-9FAA-38FDA9531ED6}">
+												<Image FileName="1921861522" Left="1144" Top="294" Right="1224" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div[2]/div[2]//ul/li[3]//div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="rotateLeftButton" Key="{3078CE4C-AF65-46AA-845F-BEC1BE327B43}">
+												<Image FileName="-975522444" Left="1224" Top="294" Right="1304" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div[2]/div[2]//ul/li[4]//div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="rotateRightButton" Key="{30DD9240-8E35-4B69-A677-0EAFA13718EF}">
+												<Image FileName="537833918" Left="1304" Top="294" Right="1384" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div[2]/div[2]//ul/li[5]//div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="brightnessContrastButton" Key="{D867ACD8-1DBC-46D3-9325-79E0F1656DEB}">
+												<Image FileName="1419683715" Left="1384" Top="294" Right="1464" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div[2]/div[2]//ul/li[6]//div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="hueSaturationButton" Key="{9761BE6C-15AE-4609-AF92-AB0A11AF987A}">
+												<Image FileName="-1529331296" Left="1464" Top="294" Right="1544" Bottom="324" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div[2]/div[2]//ul/li[7]//div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="selectCategoryToCompareLabel" Key="{896599BA-5ED9-4EF6-AB0B-35298C74BA26}">
+										<Image FileName="-1468789511" Left="1331" Top="193" Right="1502" Bottom="210" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;Select Category to Compare&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="helpLink" Key="{B2532B1F-D393-4873-BED4-917110F50EFE}">
+										<Image FileName="-31962415" Left="1495" Top="170" Right="1522" Bottom="190" />
+										<TypeInfo Item0="{3A6931CF-E651-4795-9FB2-7D1F0EFD7465}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ahb5qaKwy2uRoeaYIEpdn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectCategoryToCompareDropdown" Key="{ABF70857-8427-4250-87F6-63A2FE9DADCE}">
+										<Image FileName="-1833397184" Left="1331" Top="218" Right="1525" Bottom="243" />
+										<TypeInfo Item0="{898D0E7B-1A9F-422A-A021-349E5061BA3A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="preLabelHeader" Key="{A482B671-0BD3-408A-B6F3-DEADB274CBCA}">
+										<Image FileName="893885672" Left="401" Top="234" Right="459" Bottom="251" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;Pre-Label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/p/strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="postLabelHeader" Key="{522CF443-3005-4821-8C54-47DE2D3A6236}">
+										<Image FileName="1844226080" Left="983" Top="234" Right="1046" Bottom="251" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;Post-Label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/p/strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="closeEditAndCompareWindow" Key="{2DCCFA06-F2E6-4DFA-B8CE-48208B49BA9B}">
+										<Image FileName="1722357337" Left="1529" Top="173" Right="1542" Bottom="186" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[3]//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAccept" Key="{A0F488E7-6D02-4188-8363-FB17869E0D1F}">
+										<Image FileName="1546171367" Left="524" Top="815" Right="564" Bottom="855" />
+										<TypeInfo Item0="{46D7627D-8F5C-40B6-B785-3DF6852F15AE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@title=&apos;Accept&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;_2WENzAfuPzM7uQI1Uu9XgS&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="roboticPackagingAcceptedMessage" Key="{EAA89E18-1426-4D64-9725-E9AE0FA17B11}">
+										<Image FileName="-52848421" Left="281" Top="953" Right="624" Bottom="983" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Robotic Packaging Accepted by User&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;_1L5NUXzcScnFqZ_1SOm8Bz&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lnI-1-pkgI-1-pkg-RxPackage-&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="authorizeButton" Key="{5D16BA72-4B1A-4F29-96DE-EE9373853AB7}">
+										<Image FileName="768977313" Left="1547" Top="178" Right="1611" Bottom="210" />
+										<TypeInfo Item0="{46D7627D-8F5C-40B6-B785-3DF6852F15AE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Authorize&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="authorizePopup" Key="{51074430-2BBC-4132-84D3-925E22B07A29}">
+										<Image FileName="613075592" Left="767" Top="404" Right="1169" Bottom="723" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_3z3vu_uADMYOTJtrXxMYAx&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="authorizeHeader" Key="{EE4F5899-25E0-4A21-81D9-F3D582984459}">
+												<Image FileName="1330141966" Left="788" Top="415" Right="1158" Bottom="466" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;Authorize&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="authorizeUsernameField" Key="{AE38120E-96FD-4C9F-B6C0-7609944186BC}">
+												<Image FileName="-57191541" Left="801" Top="486" Right="1145" Bottom="543" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;Username&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//form/div" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="authorizePinField" Key="{BE5829DF-2CBA-4263-90FD-936EE4E2A18A}">
+												<Image FileName="-31813484" Left="801" Top="556" Right="1145" Bottom="613" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;PIN&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="authorizePopupAuthorizeButtoon" Key="{FB1D3595-3882-4A54-B728-B1ABA3279665}">
+												<Image FileName="1303654713" Left="953" Top="670" Right="1048" Bottom="702" />
+												<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@value=&apos;Authorize&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[contains(@class, &apos;glowShow&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="authorizePopupCancelButton" Key="{110F81AF-0EE7-4C71-9A12-5F8F98170701}">
+												<Image FileName="1557110692" Left="1053" Top="670" Right="1148" Bottom="702" />
+												<TypeInfo Item0="{70F42483-8559-4886-9097-C70F71A95D89}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@value=&apos;Cancel&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[contains(@class, &apos;redButton&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="completeTheseStepsSection" Key="{2761A846-C1E3-40AA-AF59-74B22C2B56A4}">
+										<Image FileName="-1133705541" Left="255" Top="226" Right="1074" Bottom="401" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_5bM3MVuUc8s6HJGTbZhLH&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="completeTheseStepsHeader" Key="{2F6BDEB2-88CF-4D90-9A98-3FA7E0038C11}">
+												<Image FileName="1509711882" Left="255" Top="231" Right="1074" Bottom="271" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;Complete these steps&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;DYyd1CNYOcnmaT6-Dd_D2&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="tastInstructions" Key="{7638E187-27A9-40BF-AF9C-F1B936EBFBB0}">
+												<Image FileName="1127878938" Left="280" Top="271" Right="1074" Bottom="369" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;E2ff07wBMubnxmoshAMeC&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="RequiredCheckboxText" Key="{FBC02667-C91D-49D7-8128-51630B1F4EDE}">
+												<Image FileName="257599100" Left="357" Top="370" Right="692" Bottom="387" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;I have printed a copy of the Pickup Acknowledgement.&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="requiredCheckbox" Key="{19641438-9741-48F9-8BCD-268B41126F16}">
+												<Image FileName="1375353468" Left="273" Top="371" Right="286" Bottom="384" />
+												<TypeInfo Item0="{00C80C6B-2EAB-46F5-A424-5FE27165981A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div//input[@type=&apos;checkbox&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="patientSafteyCard" Key="{E3D467AD-8C89-4A3D-BB0F-E44CBF0C9B38}">
+										<Image FileName="-1024441831" Left="270" Top="554" Right="650" Bottom="1042" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_2Ib1hNWubwPQ-heZmEJ8Pd&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="patientName" Key="{655494B8-F6D5-43C9-840E-7150F80585F2}">
+												<Image FileName="1440606878" Left="276" Top="558" Right="355" Bottom="578" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[@title=&apos;Volvo, Alex&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[contains(@class, &apos;ml-2&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;safetyCheckArea&apos;]//div/div/div/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="dateOfBirth" Key="{A4DCC8F5-DFF3-4292-B317-CE14ABC90057}">
+												<Image FileName="-1711452611" Left="517" Top="557" Right="582" Bottom="572" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;2000-Apr-07&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]//div/div/div[2]/div/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="rxNumber" Key="{DE05EA95-B00F-4AF3-BFB5-77803D675371}">
+												<Image FileName="939368205" Left="275" Top="594" Right="370" Bottom="630" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[text()=&apos;Rx #&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[contains(@class, &apos;float-left&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="rxNumberAndRxName" Key="{F99EDA51-C718-4391-855D-D87F61D2FA36}">
+												<Image FileName="92011378" Left="281" Top="661" Right="624" Bottom="679" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;Rx 123-200: Januvia, #30&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;_18nig4w9D4q8xdT9qcayIh&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="packageReviewBar" Key="{C1E97E17-63A8-46A4-9728-67D1A3BD6153}">
+												<Image FileName="1616582875" Left="280" Top="808" Right="399" Bottom="831" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Package Review&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[4]/div//span[contains(@class, &apos;pr-2&apos;)]" Enabled="False" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;safetyCheckArea&apos;]//div[4]/div/div/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div[2]//div[4]//span" Enabled="False" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="patientPhoneNumber" Key="{D46E141F-F500-4EDA-8A4E-FC28F1401D0F}">
+												<Image FileName="-682342566" Left="549" Top="574" Right="628" Bottom="591" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;(916) 812-6641&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[contains(@class, &apos;float-right&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;safetyCheckArea&apos;]//div[2]/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div[2]//div[2]/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="drugsDirection" Key="{A68CB848-EB55-4B28-B90E-0D7C02D374DD}">
+												<Image FileName="824828484" Left="281" Top="679" Right="624" Bottom="699" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;take one tablet every morning&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;_2VE52KtKheJ7yeuk3tVY7w&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="fillType" Key="{D6647374-A50F-49D2-951D-F31F5BB27E96}">
+												<Image FileName="-1382387013" Left="564" Top="594" Right="628" Bottom="630" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;New Rx&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div[contains(@class, &apos;float-right&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="counsellingStatus" Key="{44AD0860-BC61-4D81-B63F-27E5E3C6CE0C}">
+												<Image FileName="2114239334" Left="281" Top="636" Right="624" Bottom="661" />
+												<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//h5[.=&apos;Counseling optional&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//h5[contains(@class, &apos;_3bm9r9J79p1igF6vm7asCi&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;safetyCheckArea&apos;]//h5" />
+													</Selector>
+													<Selector>
+														<Value Value="//h5" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="packageRejectButton" Key="{2DA035A3-D5ED-444D-B310-37E7101680D8}">
+										<Image FileName="-2096031379" Left="574" Top="851" Right="614" Bottom="891" />
+										<TypeInfo Item0="{46D7627D-8F5C-40B6-B785-3DF6852F15AE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[@title=&apos;Reject&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[contains(@class, &apos;_2K7f1kqkCBUdRGehfM7q0n&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="packageDetails" Key="{122366E2-BC81-4E51-8E18-58B3EF878CE9}">
+										<Image FileName="-106814806" Left="271" Top="836" Right="634" Bottom="1026" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_2buPbGMxsHrJeG4KbiWZAa&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="medopsPackageDefinitionsPage" Key="{C2A985AE-FB63-4A8B-9A57-7130C0905A4E}">
+								<Image FileName="-1303215950" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Inventory/ProductDefinition/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsDashboardPage" Key="{B19EE5F6-D03E-4D8B-AB7C-CB6DCF6EF082}">
+								<Image FileName="1267650320" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Dashboard/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsQuarantineRulePage" Key="{704B152D-904C-4268-8C9E-74A6F7E0532E}" Description="quarantineRulePage">
+								<TypeInfo Item0="{8FC88092-2DE7-4D8C-84C8-D665F04E9DC2}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Inventory/QuarantineRule/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsMedcenterPage" Key="{4AC53BD0-310B-4822-ADA5-5D4030FB54D9}">
+								<Image FileName="-989436139" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/MedCenters/OrganizationUnit" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsWorkflowAssignmentPage" Key="{D97C535A-9824-41B5-BC6E-4380E80B2C44}">
+								<Image FileName="1219230664" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Workflow/WorkflowAssignment/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsDocumentManagementPage" Key="{4244E931-3E7E-46BB-BECB-7E7268D29246}">
+								<Image FileName="-2024015987" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/DocumentManagement/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopShippingManifestPage" Key="{166BFA68-F85A-4705-9AC4-9041DEF842D2}">
+								<Image FileName="863924302" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/PackagePreparation/ShippingManifest/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsPackageVerificationPage" Key="{068C789D-4C94-439F-8760-526536CD0487}">
+								<Image FileName="901373975" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/PackagePreparation/PackageVerification/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsLabelGeneratorPage" Key="{930A012D-CB87-44C6-B51C-D028F5F4724A}">
+								<Image FileName="1596546139" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/PackagePreparation/LabelGenerator/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsUsersPage" Key="{6A6D66E0-B0E6-4C27-BF61-ABD2FF74B959}">
+								<Image FileName="13976801" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/AccessControl/Users" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsUserTagsPage" Key="{BA108B19-AA1D-4E29-A5D1-B6E80F041508}">
+								<Image FileName="-1474920709" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/AccessControl/UserTag/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsTaskRoutingPage" Key="{33AD9DF0-65A4-467D-8E24-0E59A62C2E62}">
+								<Image FileName="-1123755301" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/AccessControl/Assignment/TaskRouting" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsMedcenterDoorsPage" Key="{FD2628DE-4470-4F86-ADE2-E934FD8FB2E7}">
+								<Image FileName="-1805656422" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/AccessControl/Assignment/MedCenterDoors" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsPhysicalAccessCardsPage" Key="{427A8F16-64F7-466D-A56B-E004D75ABFDC}">
+								<Image FileName="1517548527" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/AccessControl/PhysicalAccessCards/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsReportsAccessControlPage" Key="{DC8A0208-BA61-4924-B491-518F2014ADF9}">
+								<Image FileName="975525899" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/AccessControl/Reports" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsReportsPage" Key="{8EF38C21-8095-491B-939F-622DF68C562A}">
+								<Image FileName="1610095670" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Reports/Reports/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsConfigurationPage" Key="{48CD75B0-38B5-44C1-BE2F-21697F2E194E}">
+								<Image FileName="-965056511" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Setup/ApplianceProfile" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsLogicalNamesPage" Key="{A462781F-85E8-405C-AFFC-33E648E81D8D}">
+								<Image FileName="1133245031" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Setup/LogicalNames" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsTagsPage" Key="{444950BA-1631-4AE2-8EC5-92360ED5A0A4}">
+								<Image FileName="378894653" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Setup/Tags/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsPriceAdjustmentsPage" Key="{8AC53CF3-3963-485A-B9BF-DE2D35E09EF2}">
+								<Image FileName="274551687" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Setup/PriceAdjustment/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsTaskInstructionsPage" Key="{C90085BE-1A1F-4972-8588-AADF464E9E58}">
+								<Image FileName="-2003474538" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Setup/TaskInstruction/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsDeploymentPackagesPage" Key="{3D98276C-1E78-4CE1-8999-7AB940901F74}">
+								<Image FileName="2115900409" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Deployment/Deployment/List" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="medopsLogPage" Key="{D4C7F7C7-30C8-466D-8C40-AF8491D08A17}">
+								<Image FileName="-62567231" Left="8" Top="84" Right="1211" Bottom="1031" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedOps/Logs/Logs/Index" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMeddispense" Key="{1F477800-5F6B-4926-86CF-080B59B77BD8}">
+								<Image FileName="987468734" Left="8" Top="117" Right="1927" Bottom="1047" />
+								<TypeInfo Item0="{69BFDBF1-399B-4694-84A9-E7259F3CD6DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedDispense/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelTruptijadhavMedplatformBox" Key="{78796D3B-AA1F-4020-A72E-244FA3C21857}">
+										<Image FileName="987468734" Left="1552" Top="128" Right="1720" Bottom="146" />
+										<TypeInfo Item0="{1D5BA2FC-454E-4561-8C4B-5BAC5E4E2544}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;truptijadhav@medplatform.box&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;pr-2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonContinueWorking" Key="{D6DFCD46-EBD5-46EB-971B-0E290C23C8F2}">
+										<Image FileName="-840994994" Left="943" Top="623" Right="1046" Bottom="652" />
+										<TypeInfo Item0="{EC7E171D-0992-4837-9D15-6F178394CB43}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Continue working&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;glowShow&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{945A452E-A6EF-4825-9061-4ECA6831D80C}">
+										<Image FileName="-488711122" Left="875" Top="500" Right="1011" Bottom="518" />
+										<TypeInfo Item0="{BCC0A54D-73DB-4B05-8510-8944D4FB90DC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//input)[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJobTitle" Key="{E9AEE301-8AE6-44BF-A293-CB52AA29C9A3}">
+										<Image FileName="1589105447" Left="872" Top="521" Right="1102" Bottom="926" />
+										<TypeInfo Item0="{2E9A07D6-C5D1-4E6F-BAD1-A788F19DD63C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Job Title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;QvoneDHgTUR2kze9db15z&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelTransferTo" Key="{0101C903-7A33-42E3-9BB0-57F78A4F3843}">
+										<Image FileName="357077993" Left="782" Top="497" Right="845" Bottom="515" />
+										<TypeInfo Item0="{2E9A07D6-C5D1-4E6F-BAD1-A788F19DD63C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Transfer to:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label[contains(@class, &apos;_1fvhThQCumy_uvf-wJj_6h&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textarea" Key="{58CEAA32-2896-4225-8AB3-9823174F745A}">
+										<Image FileName="-699921234" Left="872" Top="537" Right="1106" Bottom="627" />
+										<TypeInfo Item0="{2E9A07D6-C5D1-4E6F-BAD1-A788F19DD63C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;LwB6J0kgdr9QsQ7FPccQt&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{99C66040-7B1F-411A-9603-E692128AF019}">
+			<Child Name="IdentifyCustomerPage" Owner="{0E5BD1B4-E94C-46C9-8AAC-BE585F77CB5F}">
+				<Child Name="viewInventorybutton" Owner="{9F32D5DB-0962-4D04-9471-873E6FD52DCB}" />
+				<Child Name="lastName" Owner="{A1B50601-287F-4213-90D7-2575537432EF}">
+					<Child Name="lastNameTextField" Owner="{C4D2D417-A009-4919-966C-36CED0665A34}" />
+				</Child>
+				<Child Name="firstName" Owner="{F0A8F463-8467-45DE-8BB2-5DD4FDB80CBD}">
+					<Child Name="firstNameTextField" Owner="{52D87BE6-5E3B-44DA-BCA4-252B33942552}" />
+				</Child>
+				<Child Name="dateOfBirth" Owner="{D1D4BAF0-40DF-4B59-8813-072004DE7947}">
+					<Child Name="dateOfBirthTextField" Owner="{F6E544DC-1211-4FDF-A6B5-5191B28032F7}" />
+				</Child>
+				<Child Name="searchPatientsButton" Owner="{03E85837-E50B-45D5-A168-34AC2B08D22F}" />
+				<Child Name="patientInformationCard" Owner="{23A13084-4229-4D2C-B592-C198D9CEE5C1}" />
+				<Child Name="identificationCompleteButton" Owner="{642D706B-B9F7-4444-B08A-6598A8409543}" />
+			</Child>
+			<Child Name="InventoryPage" Owner="{1C974C24-FA39-44D3-A546-A05E7D198E1A}">
+				<Child Name="inventorySeachBox" Owner="{05E6D124-90D3-4112-882F-AD0AEED0EB54}">
+					<Child Name="searchIcon" Owner="{30DA1B01-DE6D-4800-9487-05D3284DCABC}" />
+				</Child>
+				<Child Name="searchPlaceholder" Owner="{F8E8980F-5C75-4B6B-8874-07B5CCFE9F1B}" />
+				<Child Name="productName" Owner="{EABC9F30-BEB7-4E52-82CC-A94B0880C2FF}">
+					<Child Name="productNameText" Owner="{93A761F2-5BDD-48B6-B636-BE17B532645F}" />
+					<Child Name="productNameFilterbox" Owner="{FDC3CD26-59D2-4262-99A0-BB90C1D3A597}" />
+				</Child>
+				<Child Name="packageDescription" Owner="{9ED1D29A-B8DF-4716-8A92-AB9CE7C4717D}">
+					<Child Name="packageDescriptionText" Owner="{F500BF10-E9B0-4282-9BA8-B66CBD30C41A}" />
+					<Child Name="packageDescriptionFilterbox" Owner="{44B6823F-206C-4905-B742-8DF5BFE05BE6}" />
+				</Child>
+				<Child Name="productCode" Owner="{82DA824C-EE9C-41E2-8A1A-9A321BDA379F}">
+					<Child Name="productCodeText" Owner="{B2FC2AB5-0FED-4B35-807A-09E82342A9BC}" />
+					<Child Name="productCodeFilterbox" Owner="{30698A48-3711-453E-BAAF-89C0A7CE09D5}" />
+				</Child>
+				<Child Name="quantityInPackage" Owner="{D972ABDE-01DB-42FF-AFF4-8E6C676BC9C5}" />
+				<Child Name="manufacturer" Owner="{B6B956BF-0F63-4ABB-99CE-2415E11F3EA2}">
+					<Child Name="manufacturerText" Owner="{9EFC0F03-364E-4AE5-93E5-1CBF7CAB6F89}" />
+					<Child Name="manufacturerFilterbox" Owner="{78F98C09-B1AB-4FC0-B898-97CBFFC6FD44}" />
+				</Child>
+				<Child Name="packageCode" Owner="{B0775B44-B28F-4823-80E2-733AF7FBF669}">
+					<Child Name="packageCodeText" Owner="{512EF413-CF61-443C-AD34-F09F5CB76FDA}" />
+					<Child Name="packageCodeFilterbox" Owner="{02F46E46-E5F4-4E6E-9B6E-D674528F34C0}" />
+				</Child>
+				<Child Name="soonestExpirationText" Owner="{AF8BAD87-0666-4113-A854-DBDBD60005D0}" />
+				<Child Name="availablePackagesText" Owner="{02267F59-1CF4-4628-9966-C4A04174CEE3}" />
+				<Child Name="isDemoPackageText" Owner="{0176DCA4-2F8F-46EF-8A0F-9BC90EFBC0EC}" />
+				<Child Name="medCenterHeader" Owner="{26523AC3-25FB-4859-A24D-0001C0116D5F}" />
+				<Child Name="DrugTable" Owner="{A21CDB16-A0AB-4B94-A9E4-8731077D7A48}" />
+			</Child>
+			<Child Name="InventoryWindow" Owner="{5479DE44-22F2-46D6-9069-0248A9261450}" />
+			<Child Name="meddispenseSignInPage" Owner="{AA3CF459-29CF-4C14-8575-2FBF9A091BC5}">
+				<Child Name="medDispenseLoginForm" Owner="{330B45A6-1AE7-4DB6-ABFC-FC85417B62F4}">
+					<Child Name="usernameTextField" Owner="{98870357-7265-4321-8423-9EE86DBCB737}" />
+					<Child Name="passwordTextField" Owner="{2629BCF9-C45A-4BC0-AC2E-F96292C1B38F}" />
+					<Child Name="SignInButton" Owner="{A4232501-2506-4B25-A3A6-B3C5133CA957}" />
+				</Child>
+				<Child Name="medDispenseLogo" Owner="{27CC2EFF-13D3-4F41-A639-E009F5C06E65}" />
+			</Child>
+			<Child Name="medDispensePage" Owner="{93922C15-7307-4FB5-A542-541E49F52880}">
+				<Child Name="pinVerificationHeader" Owner="{446C5211-88F7-4C7D-A33B-12C67D313C48}" />
+				<Child Name="pinVerificationForm" Owner="{6B4AA90B-09F4-4815-BE82-2A3EFE92854F}">
+					<Child Name="pinBox" Owner="{3515261D-9AF8-49EC-ABA0-B1A83D29F06A}" />
+				</Child>
+				<Child Name="pinSubmitButton" Owner="{E6710D8D-13CE-4BB2-9435-B8BA584A250A}" />
+				<Child Name="contactCenterAgentHeader" Owner="{D0B2DB5C-A0EA-4AC6-8D90-D7BE8221CCBE}" />
+				<Child Name="UsernameDropdown" Owner="{16DBE756-261B-4053-A611-66FFD97053D1}" />
+				<Child Name="UsernameDropDownBox" Owner="{DD2BB786-93C8-498F-92AA-5F8CB2CC05DC}">
+					<Child Name="SignOutMenu" Owner="{45FA1511-EA1D-4DF8-A7AC-00ED7ED99AF7}" />
+				</Child>
+				<Child Name="panelHeader" Owner="{C240E543-B029-49CF-8159-C3F616C3BC95}" />
+				<Child Name="panelIfYouForgotYourPin" Owner="{E9E0711B-2581-4FBE-809C-B0C19CCB1DA9}" />
+				<Child Name="pinVerificationSubmitButtonGrey" Owner="{96E9B2DD-5CA1-42AE-8871-548393BEC3C7}" />
+				<Child Name="panelPinVerification" Owner="{5A0881D0-C142-4429-8AFF-D0966374B68F}" />
+			</Child>
+			<Child Name="meddispenseSignOutPage" Owner="{2467B272-35B0-49CB-AF14-4F30EF069C9A}">
+				<Child Name="signOutMessage" Owner="{F09DAAF4-ECF2-41C9-92E1-A01DADAB1EF3}" />
+			</Child>
+			<Child Name="commonControls" Owner="{2770BDAA-5051-4341-B039-7632DF14FCF8}">
+				<Child Name="endTransactionPopupHeader" Owner="{2E667BDF-E135-42D8-B328-5910CA4EC095}" />
+				<Child Name="reasonForEndingTransactionTextField" Owner="{249A6DA0-C6E8-4A34-BA66-00EE8C231024}" />
+				<Child Name="cancelPopupButton" Owner="{B3F08555-4199-4F01-9B04-2B60DC8C2B6B}" />
+				<Child Name="endTransactionPopupButton" Owner="{460194E9-C037-4911-A6EA-D19D64A063F9}" />
+				<Child Name="endTransactionButton" Owner="{E29FCF11-2110-4CA8-91B4-55DEDEB230D5}" />
+				<Child Name="addScanHeader" Owner="{F0AFEAEB-FDBA-4BBA-849B-9DF47746ECA7}" />
+				<Child Name="collateralHeader" Owner="{EB9DDD58-02DF-451A-8374-D6AF1ADA286C}" />
+				<Child Name="textnodeAddScan" Owner="{57188461-81E8-4BFD-BD92-E6561AA69FE3}" />
+				<Child Name="getKioskScreenButton" Owner="{4631F945-1F78-4039-AED4-D07D20C8F599}" />
+				<Child Name="callKioskButton" Owner="{0AB97029-C3D8-4C93-A089-E4770A273D06}" />
+				<Child Name="transferTaskButton" Owner="{7449CDF3-7C5F-4AFE-82B4-6FB3AB9E48A1}" />
+				<Child Name="discardAndRestartButton" Owner="{EA7AD2DC-6F1F-4DE1-B47D-23E35FE3C70C}" />
+				<Child Name="discardAndEndTransactionButton" Owner="{6A1D577A-5EE0-4BC9-AC8E-A8DD341CB675}" />
+				<Child Name="queuedTaskSIndicator" Owner="{7D864651-91F0-4BD1-9370-326EA37B5E0D}" />
+				<Child Name="sessionTimer" Owner="{F2E6AB62-6CFE-49B2-97DA-E7AA9F553723}" />
+				<Child Name="searchAndIdentifyCustomerTab" Owner="{FCBB54A6-3F4C-4007-8919-73DD300E9082}" />
+				<Child Name="selectPatientsAndRxsTab" Owner="{65470BE9-6C67-4579-B633-E1F85FF678B9}" />
+				<Child Name="qaConsultAuthorizeTab" Owner="{3DE5592E-A22C-48C0-9204-9DEB2EC10F42}" />
+				<Child Name="panelGayatriMedplatformBox" Owner="{C5F7D17C-DA97-46EB-8677-0E67A5A26F67}" />
+				<Child Name="linkLaunchHelp" Owner="{F70B2962-A2D9-4FCA-BC1D-B4CB56BE2A83}" />
+				<Child Name="medcenterTitle" Owner="{FEBC76C4-A4BD-418C-B2CC-CACC205FD671}">
+					<Child Name="medcenterText" Owner="{EAC421B4-7999-40BF-90E9-55B614A850E1}" />
+					<Child Name="medcenterNumber" Owner="{A2D25B55-C67A-43AD-8512-390180042613}" />
+				</Child>
+				<Child Name="kioskTitle" Owner="{C4B8C6D6-BD1D-4799-983A-72285BDC2D62}">
+					<Child Name="kiosktext" Owner="{E9D262E8-1E77-4ED5-8032-96477CC97473}" />
+					<Child Name="kioskNumber" Owner="{A2815E9D-5708-4474-97C0-2C6CFDAD0D79}" />
+				</Child>
+				<Child Name="transactionTypeTitle" Owner="{E1F54D0A-35A3-47C4-9768-3AE1CB6B4F7A}">
+					<Child Name="transactionTypeText" Owner="{AE70EE5C-C7B6-4B24-BE55-BFB1962EF809}" />
+					<Child Name="transactionTypeFillPrescription" Owner="{E2A379D6-B678-4D49-A41E-AE9039654D13}" />
+				</Child>
+				<Child Name="customerLanguageTitle" Owner="{4B4BC480-F534-4653-A0F4-47E23602C071}">
+					<Child Name="customerLanguageText" Owner="{79F8075A-69B4-4BE3-8F65-2E0472B05969}" />
+					<Child Name="customerLanguage" Owner="{C8A7E21D-A7F3-48F8-98F8-11E03C2EA36F}" />
+				</Child>
+				<Child Name="storeTitle" Owner="{B14C6A5A-4485-447B-8653-8569B3255598}">
+					<Child Name="storeNumber" Owner="{9978ABBB-A8C1-4E94-BE19-040FD8AAC339}" />
+					<Child Name="storeText" Owner="{1883C835-A752-4E6D-A704-005B2763E7ED}" />
+				</Child>
+				<Child Name="locationText" Owner="{BAF0B4B1-37EA-43BB-86F7-89DAD038486D}" />
+				<Child Name="medavailVersion" Owner="{DDC86CBD-4E5C-4EBF-A6C5-0B707E409175}" />
+				<Child Name="notesSection" Owner="{CF25FAD5-05B8-4F15-A2F7-D879075B256E}">
+					<Child Name="notesHeader" Owner="{71F02D4F-45EB-43DE-B731-12759DE7C0FC}" />
+				</Child>
+				<Child Name="panelTransactionProgress" Owner="{32302BE6-CF81-41C2-A369-1B547D71EB86}" />
+				<Child Name="patientNotesSection" Owner="{83D7D3BE-5873-4D4D-8DB1-52D661AC341A}">
+					<Child Name="patientName" Owner="{78DD2C15-9AF8-4C2F-8B70-1DC1AFDC1300}" />
+					<Child Name="patientNotes" Owner="{56BE5C91-561C-4EFC-A39E-B2A0786F043B}" />
+				</Child>
+				<Child Name="transferToCertificationTag" Owner="{389C7978-868C-4D35-AA49-195D03B73DB2}" />
+				<Child Name="transferToJobTitleTag" Owner="{F2A024A4-F012-4F8A-B704-7C54CC763016}" />
+				<Child Name="transferToLocationTag" Owner="{CCCEE7AF-35B4-4B5B-8BB7-BBED745ED775}" />
+				<Child Name="transferToOtherTag" Owner="{A6C13339-E0D9-4D35-BABA-19960FC9C4E2}" />
+				<Child Name="transferToUserTag" Owner="{92617B72-5108-437A-94CB-4D5AEB6599DB}" />
+				<Child Name="transferTaskPopupSubmitButtonGrey" Owner="{DB708B74-D6E4-4360-8C2D-46A570231682}" />
+				<Child Name="transferTaskPopupSubmitButtonGreen" Owner="{CDCD65E2-731F-4F8D-B1FA-CC1CB7B4E6ED}" />
+				<Child Name="transferTaskPopupReasonTextBox" Owner="{45A4EC94-DA11-485C-B283-D4561CFA4FA1}" />
+				<Child Name="transferTaskPopupTransferToDropdown" Owner="{0FCE1BB4-D941-41B3-B5BC-97011BC49B81}" />
+				<Child Name="transferTaskPopupHeader" Owner="{6163D195-0823-4EB3-8D57-3650D2C3453E}" />
+				<Child Name="transferTaskPopupReasonLabel" Owner="{4D9EB0A6-6DE2-4C95-B679-A9710F6A09BE}" />
+				<Child Name="transferTaskPopupTransferToLabel" Owner="{1DB23525-EB93-49DF-83D4-4EA5F2E83ECB}" />
+				<Child Name="transferTaskPopupCloseButton" Owner="{9AD75F4F-112F-4383-8931-A72CAC968C38}" />
+			</Child>
+			<Child Name="loginWindow" Owner="{C42EB11A-0F0D-4521-B0BA-CF32F7ACC707}" />
+			<Child Name="SpnRxPage" Owner="{235F109F-C889-4621-A8DC-D359685F6B25}">
+				<Child Name="requiredCheckbox" Owner="{5F757C81-1980-4318-8F9B-CA7EAB0A16B8}" />
+				<Child Name="submitButton" Owner="{A31BA62C-CFBC-47A0-B78B-5C9E0F5EBBCD}" />
+				<Child Name="confirmButton" Owner="{C915FE3F-D448-4B03-9909-67BCF053068F}" />
+			</Child>
+			<Child Name="qaConsultAuthorizePage" Owner="{96E1A110-3D90-4A0F-BC6C-736565EFDC88}">
+				<Child Name="transactionProgressSection" Owner="{F46AEA2F-169A-4022-AB5C-3BA023EEAD6C}" />
+				<Child Name="viewPackageImagesButton" Owner="{90F03EEF-CE97-4D48-AD32-654B0C897FA3}" />
+				<Child Name="editCompareImagesHeader" Owner="{6448BC78-0A5B-463F-9118-DEBF5A830B32}" />
+				<Child Name="preLabelSection" Owner="{22ECE3E7-8F4D-4CDD-B43D-488DDCE3180F}">
+					<Child Name="zoomButton" Owner="{0BBADE93-E078-4499-902D-0A6A87B9E5AC}" />
+					<Child Name="rotateLeftButton" Owner="{319D0BAB-11D0-4B91-9F40-313D06F5CF2A}" />
+					<Child Name="rotateRightButton" Owner="{C1F6CE44-110C-4547-A6CD-BA3222383693}" />
+					<Child Name="MagnifyButton" Owner="{98CE4AE4-CC17-4353-9E1E-6445C0FBA395}" />
+					<Child Name="cropButton" Owner="{7855DC00-1C80-4A64-AE7C-EA777F4845E8}" />
+					<Child Name="hueSaturationButton" Owner="{FBB3B04D-0A9C-409F-81B8-0E18DB015BDF}" />
+					<Child Name="brightnessContrastButton" Owner="{20DA6039-A309-4CF2-B02F-A6F693B11E75}" />
+				</Child>
+				<Child Name="postLabelSection" Owner="{63CDE2B0-1363-4143-A08E-695CDFDC87BD}">
+					<Child Name="zoomButton" Owner="{16E14373-6463-48FF-BE4C-09C778EF0500}" />
+					<Child Name="rotateLeftButton" Owner="{3078CE4C-AF65-46AA-845F-BEC1BE327B43}" />
+					<Child Name="cropButton" Owner="{19125978-3F4C-4566-9FAA-38FDA9531ED6}" />
+					<Child Name="magnifyButton" Owner="{0899F933-F457-49C9-A517-B4693DDC52A9}" />
+					<Child Name="rotateRightButton" Owner="{30DD9240-8E35-4B69-A677-0EAFA13718EF}" />
+					<Child Name="brightnessContrastButton" Owner="{D867ACD8-1DBC-46D3-9325-79E0F1656DEB}" />
+					<Child Name="hueSaturationButton" Owner="{9761BE6C-15AE-4609-AF92-AB0A11AF987A}" />
+				</Child>
+				<Child Name="selectCategoryToCompareLabel" Owner="{896599BA-5ED9-4EF6-AB0B-35298C74BA26}" />
+				<Child Name="helpLink" Owner="{B2532B1F-D393-4873-BED4-917110F50EFE}" />
+				<Child Name="preLabelHeader" Owner="{A482B671-0BD3-408A-B6F3-DEADB274CBCA}" />
+				<Child Name="postLabelHeader" Owner="{522CF443-3005-4821-8C54-47DE2D3A6236}" />
+				<Child Name="selectCategoryToCompareDropdown" Owner="{ABF70857-8427-4250-87F6-63A2FE9DADCE}" />
+				<Child Name="closeEditAndCompareWindow" Owner="{2DCCFA06-F2E6-4DFA-B8CE-48208B49BA9B}" />
+				<Child Name="packageAcceptButton" Owner="{A0F488E7-6D02-4188-8363-FB17869E0D1F}" />
+				<Child Name="roboticPackagingAcceptedMessage" Owner="{EAA89E18-1426-4D64-9725-E9AE0FA17B11}" />
+				<Child Name="authorizeButton" Owner="{5D16BA72-4B1A-4F29-96DE-EE9373853AB7}" />
+				<Child Name="authorizePopup" Owner="{51074430-2BBC-4132-84D3-925E22B07A29}">
+					<Child Name="authorizeHeader" Owner="{EE4F5899-25E0-4A21-81D9-F3D582984459}" />
+					<Child Name="authorizeUsernameField" Owner="{AE38120E-96FD-4C9F-B6C0-7609944186BC}" />
+					<Child Name="authorizePinField" Owner="{BE5829DF-2CBA-4263-90FD-936EE4E2A18A}" />
+					<Child Name="authorizePopupAuthorizeButtoon" Owner="{FB1D3595-3882-4A54-B728-B1ABA3279665}" />
+					<Child Name="authorizePopupCancelButton" Owner="{110F81AF-0EE7-4C71-9A12-5F8F98170701}" />
+				</Child>
+				<Child Name="completeTheseStepsSection" Owner="{2761A846-C1E3-40AA-AF59-74B22C2B56A4}">
+					<Child Name="completeTheseStepsHeader" Owner="{2F6BDEB2-88CF-4D90-9A98-3FA7E0038C11}" />
+					<Child Name="tastInstructions" Owner="{7638E187-27A9-40BF-AF9C-F1B936EBFBB0}" />
+					<Child Name="RequiredCheckboxText" Owner="{FBC02667-C91D-49D7-8128-51630B1F4EDE}" />
+					<Child Name="requiredCheckbox" Owner="{19641438-9741-48F9-8BCD-268B41126F16}" />
+				</Child>
+				<Child Name="patientSafteyCard" Owner="{E3D467AD-8C89-4A3D-BB0F-E44CBF0C9B38}">
+					<Child Name="patientName" Owner="{655494B8-F6D5-43C9-840E-7150F80585F2}" />
+					<Child Name="dateOfBirth" Owner="{A4DCC8F5-DFF3-4292-B317-CE14ABC90057}" />
+					<Child Name="rxNumber" Owner="{DE05EA95-B00F-4AF3-BFB5-77803D675371}" />
+					<Child Name="rxNumberAndRxName" Owner="{F99EDA51-C718-4391-855D-D87F61D2FA36}" />
+					<Child Name="patientPhoneNumber" Owner="{D46E141F-F500-4EDA-8A4E-FC28F1401D0F}" />
+					<Child Name="packageReviewBar" Owner="{C1E97E17-63A8-46A4-9728-67D1A3BD6153}" />
+					<Child Name="drugsDirection" Owner="{A68CB848-EB55-4B28-B90E-0D7C02D374DD}" />
+					<Child Name="fillType" Owner="{D6647374-A50F-49D2-951D-F31F5BB27E96}" />
+					<Child Name="counsellingStatus" Owner="{44AD0860-BC61-4D81-B63F-27E5E3C6CE0C}" />
+				</Child>
+				<Child Name="packageRejectButton" Owner="{2DA035A3-D5ED-444D-B310-37E7101680D8}" />
+				<Child Name="packageDetails" Owner="{122366E2-BC81-4E51-8E18-58B3EF878CE9}" />
+			</Child>
+			<Child Name="medopsPackageDefinitionsPage" Owner="{C2A985AE-FB63-4A8B-9A57-7130C0905A4E}" />
+			<Child Name="medopsQuarantineRulePage" Owner="{704B152D-904C-4268-8C9E-74A6F7E0532E}" />
+			<Child Name="medopsDashboardPage" Owner="{B19EE5F6-D03E-4D8B-AB7C-CB6DCF6EF082}" />
+			<Child Name="medopsMedcenterPage" Owner="{4AC53BD0-310B-4822-ADA5-5D4030FB54D9}" />
+			<Child Name="medopsWorkflowAssignmentPage" Owner="{D97C535A-9824-41B5-BC6E-4380E80B2C44}" />
+			<Child Name="medopsDocumentManagementPage" Owner="{4244E931-3E7E-46BB-BECB-7E7268D29246}" />
+			<Child Name="medopShippingManifestPage" Owner="{166BFA68-F85A-4705-9AC4-9041DEF842D2}" />
+			<Child Name="medopsPackageVerificationPage" Owner="{068C789D-4C94-439F-8760-526536CD0487}" />
+			<Child Name="medopsLabelGeneratorPage" Owner="{930A012D-CB87-44C6-B51C-D028F5F4724A}" />
+			<Child Name="medopsUsersPage" Owner="{6A6D66E0-B0E6-4C27-BF61-ABD2FF74B959}" />
+			<Child Name="medopsUserTagsPage" Owner="{BA108B19-AA1D-4E29-A5D1-B6E80F041508}" />
+			<Child Name="medopsTaskRoutingPage" Owner="{33AD9DF0-65A4-467D-8E24-0E59A62C2E62}" />
+			<Child Name="medopsMedcenterDoorsPage" Owner="{FD2628DE-4470-4F86-ADE2-E934FD8FB2E7}" />
+			<Child Name="medopsPhysicalAccessCardsPage" Owner="{427A8F16-64F7-466D-A56B-E004D75ABFDC}" />
+			<Child Name="medopsReportsAccessControlPage" Owner="{DC8A0208-BA61-4924-B491-518F2014ADF9}" />
+			<Child Name="medopsReportsPage" Owner="{8EF38C21-8095-491B-939F-622DF68C562A}" />
+			<Child Name="medopsConfigurationPage" Owner="{48CD75B0-38B5-44C1-BE2F-21697F2E194E}" />
+			<Child Name="medopsLogicalNamesPage" Owner="{A462781F-85E8-405C-AFFC-33E648E81D8D}" />
+			<Child Name="medopsTagsPage" Owner="{444950BA-1631-4AE2-8EC5-92360ED5A0A4}" />
+			<Child Name="medopsPriceAdjustmentsPage" Owner="{8AC53CF3-3963-485A-B9BF-DE2D35E09EF2}" />
+			<Child Name="medopsTaskInstructionsPage" Owner="{C90085BE-1A1F-4972-8588-AADF464E9E58}" />
+			<Child Name="medopsDeploymentPackagesPage" Owner="{3D98276C-1E78-4CE1-8999-7AB940901F74}" />
+			<Child Name="medopsLogPage" Owner="{D4C7F7C7-30C8-466D-8C40-AF8491D08A17}" />
+			<Child Name="pageMeddispense" Owner="{1F477800-5F6B-4926-86CF-080B59B77BD8}">
+				<Child Name="panelTruptijadhavMedplatformBox" Owner="{78796D3B-AA1F-4020-A72E-244FA3C21857}" />
+				<Child Name="submitbuttonContinueWorking" Owner="{D6DFCD46-EBD5-46EB-971B-0E290C23C8F2}" />
+				<Child Name="textbox" Owner="{945A452E-A6EF-4825-9061-4ECA6831D80C}" />
+				<Child Name="textnodeJobTitle" Owner="{E9AEE301-8AE6-44BF-A293-CB52AA29C9A3}" />
+				<Child Name="transferTaskPopupTransferToLabel" Owner="{0101C903-7A33-42E3-9BB0-57F78A4F3843}" />
+				<Child Name="textarea" Owner="{58CEAA32-2896-4225-8AB3-9823174F745A}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
